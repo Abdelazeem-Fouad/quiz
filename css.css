@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #d68d04;
+}
+ul{
+    list-style: none;
+
+}
+ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.button{
+    background-color: blue;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border: 0;
+    outline: 0;
+    padding: 5px;
+    cursor: pointer;
+    color:white;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.non-active{
+    pointer-events: none;
+}
+.answer-wright{
+    background-color: green
+}
+
+.answer-wrong{
+    background-color: red
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+    background-color: skyblue;
+    color: black;
+    border-radius: 10px;
+}
+.content{
+    width: 100%;
+    height: 200px;
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-bottom: 4px solid gray;
+    
+}
+.content h1{
+    margin-bottom: 30px;
+    text-transform: capitalize;
+}
+.content .radio{
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    margin-right: 4px;
+    display: inline-block;
+}
+.content label{
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: all .5s;
+    text-transform: capitalize;
+
+}
+.content label:hover{
+    opacity: .6;
+}
+.score{
+    padding:10px 20px 20px 40px;
+    color: green;
+    font-size: 30px;
+
+}
+#gemy{
+    background-color: #06425b;
+    text-align: right;
+    font-size: 75px;
+    color: white;
+}
